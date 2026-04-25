@@ -55,6 +55,18 @@ function outboundTransferCustomRefund(
         return abi.encode(seqNum);
     }
 
-
-
 ```
+
+
+
+
+<div align="center">
+
+# 🧠 What does this function actually do?
+*Deep dive into the logic and flow*
+
+---
+</div>
+
+
+
