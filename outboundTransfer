@@ -1,1 +1,15 @@
 
+```solidity```
+
+
+  function outboundTransfer(
+        address _l1Token,
+        address _to,
+        uint256 _amount,
+        uint256 _maxGas,
+        uint256 _gasPriceBid,
+        bytes calldata _data
+    ) public payable override returns (bytes memory res) {
+        return
+            outboundTransferCustomRefund(_l1Token, _to, _to, _amount, _maxGas, _gasPriceBid, _data);
+    }
